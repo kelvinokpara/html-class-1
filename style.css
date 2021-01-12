@@ -1,0 +1,94 @@
+body{
+    padding:0;
+    margin:0;
+}
+nav{
+    background-image: url('001.png');
+    height: 350px;
+    background-size:cover;
+    object-fit: cover;
+}
+.navbar-header{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navbar-header img{
+    margin-left: 15px;
+    width: 100px;
+    height:50px;
+    margin-top:10px
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right:15px;
+}
+
+ul li{
+    margin-left: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.welcome{
+   text-align: center;
+   margin-top: 10%;
+}
+.welcome h2{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.container{
+    margin-top: 5%;
+    width:80%;
+    margin-left:10%;
+    text-align: center;
+}
+
+.container h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container .form-box{
+    /* line-height: 40px; */
+}
+
+.form-box .form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.form-group .input{
+    padding:10px 15px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    outline: none;
+    font-size: 18px;
+}
+
+.form-box .btn{
+    width:250px;
+    padding:10px;
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    color:white;
+    font-weight:bold;
+    font-size: 17px;
+}
